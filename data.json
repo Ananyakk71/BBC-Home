@@ -1,0 +1,484 @@
+{
+    "head": {
+        "button": [
+            {
+                "text": "Register",
+                "class": "register"
+            },
+            {
+                "text": "Sign In",
+                "class": "sign"
+            }
+        ],
+        "innerText": [
+            "Home",
+            "News",
+            "Sport",
+            "Business",
+            "Innovation",
+            "Culture",
+            "Arts",
+            "Travel",
+            "Earth",
+            "Video",
+            "Live"
+        ],
+        "link": [
+            "http://127.0.0.1:5501/BBC%20Home/index.html",
+            "https://www.bbc.com/news",
+            "https://www.bbc.com/sport",
+            "https://www.bbc.com/business",
+            "https://www.bbc.com/innovation",
+            "https://www.bbc.com/culture",
+            "https://www.bbc.com/arts",
+            "https://www.bbc.com/travel",
+            "https://www.bbc.com/future-planet",
+            "https://bbc.com/video",
+            "https://www.bbc.com/live"
+        ]
+    },
+    "mainSection": {
+        "firstGrid1": [
+            {
+                "image": "assets/imgs/img1.webp",
+                "headline": "Palestinians and Israelis dare to hope as Gaza deal reportedly close",
+                "description": "Mediator Qatar says there are no major issues blocking a ceasefire and hostage release agreement.",
+                "time": "15 hrs ago",
+                "link": "https://www.bbc.com/news/articles/cm230ly8k1eo"
+            },
+            {
+                "image": "assets/imgs/img2.webp",
+                "headline": "Red Sea dive-boat survivors accuse authorities of cover up",
+                "description": "The group say their official witness statements were translated into Arabic by a boat company employee.",
+                "time": "6 hrs ago",
+                "category": "World",
+                "link": "https://www.bbc.com/news/articles/c5yv4p95m6vo"
+            }
+        ],
+        "firstGrid2": {
+            "image": "assets/imgs/img3.webp",
+            "headline": "Biden warns 'dangerous' oligarchy taking shape in farewell address",
+            "description": "The outgoing president used his final televised speech from the Oval Office to issue a series of warnings.",
+            "time": "7 mins ago",
+            "category": "US & Canada",
+            "link": "https://www.bbc.com/news/articles/c1weqzl3ydro"
+        },
+        "secondGrid": [
+            {
+                "headline": "Georgian opposition leader beaten up, blames governing party members",
+                "description": "Giorgia Gakharia needs hospital treatment in the latest attack on an opposition leader.",
+                "time": "8 hrs ago",
+                "category": "Europe",
+                "link": "https://www.bbc.com/news/articles/cwyp3750y3po"
+            },
+            {
+                "headline": "UK government says Trump has right to consider Chagos deal",
+                "description": "The biggest island, Diego Garcia, hosts a joint UK-US airbase which is of strategic importance.",
+                "time": "10 hrs ago",
+                "category": "Africa",
+                "link": "https://www.bbc.com/news/articles/cx2qpngxgp4o"
+            },
+            {
+                "headline": "US bans red dye 3 from some frosting, candy and medicine",
+                "description": "The FDA says food manufacturers have until January 2025 to remove the cherry-red dye from their products.",
+                "time": "6 hrs ago",
+                "category": "US & Canada",
+                "link": "https://www.bbc.com/news/articles/cx2qpngxgp4o"
+            },
+            {
+                "headline": "AI Brad Pitt dupes French woman out of €830,000",
+                "description": "Anne, 53, was subject to nationwide ridicule after a TV show revealed how she paid out huge sums to romance scammers pretending to be Brad Pitt.",
+                "time": "13 hrs ago",
+                "category": "Europe",
+                "link": "https://www.bbc.com/news/articles/ckgnz8rw1xgo"
+            }
+        ],
+        "BBC": {
+            "heading": " Only from the BBC",
+            "card": [
+                {
+                    "image": "assets/imgs/img4.webp",
+                    "headline": "What's the secret to Denmark's happy work-life balance?",
+                    "description": "The Nordic nation doesn't require staff to work long hours and has a generous welfare system.",
+                    "time": "8 hrs ago",
+                    "category": "Europe",
+                    "link": "https://www.bbc.com/news/articles/c20g7705re3o"
+                },
+                {
+                    "image": "assets/imgs/img5.webp",
+                    "headline": "Five daytime hacks for a better night's sleep",
+                    "description": "The secret to feeling good after a night's sleep may start during the day. Here are some tips on how to improve your sleep and feel less tired.",
+                    "time": "22 hrs ago",
+                    "category": "Future",
+                    "link": "https://www.bbc.com/future/article/20250114-five-science-backed-daytime-hacks-to-improve-your-sleep"
+                }
+            ]
+        },
+        "news": [
+            {
+                "headline": "Starmer in Kyiv to pledge more Ukraine support",
+                "time": "2 hrs ago",
+                "category": "Europe",
+                "link": "https://www.bbc.com/news/articles/cvgem31jekvo"
+            },
+            {
+                "headline": "Starmer in Kyiv to pledge more Ukraine support",
+                "time": "2 hrs ago",
+                "category": "Europe",
+                "link": "https://www.bbc.com/news/articles/cvgem31jekvo"
+            },
+            {
+                "headline": "Georgian opposition leader beaten up, blames governing party members",
+                "time": "13 hrs ago",
+                "category": "Europe",
+                "link": "https://www.bbc.com/news/articles/cpql9v1r57vo"
+            },
+            {
+                "headline": "UK government says Trump has right to consider Chagos deal",
+                "time": "15 hrs ago",
+                "category": "Europe",
+                "link": "https://www.bbc.com/news/articles/cvgem31jekvo"
+            },
+            {
+                "headline": "'Nothing off the table' in Canada's response to US tariff threat",
+                "time": "18 hrs ago",
+                "category": "Europe",
+                "link": "https://www.bbc.com/news/articles/cvgem31jekvo"
+            }
+        ],
+        "watch": [
+            {
+                "image": "assets/imgs/img6.webp",
+                "headline": "A mother tiger on a fierce hunt to feed her cubs",
+                "description": "While her three offspring take a leisurely bath, this Bengal tiger mother must find food for the entire family.",
+                "time": "8 hrs ago",
+                "category": "Europe",
+                "link": "https://www.bbc.com/reel/video/p0kgb8bw/a-mother-tiger-on-a-fierce-hunt-to-feed-her-cubs"
+            },
+            {
+                "image": "assets/imgs/img7.webp",
+                "headline": "Joe Biden hails Israel and Hamas ceasefire deal",
+                "description": "Outgoing US President Joe Biden hails the agreed ceasefire deal between Israel and Hamas.",
+                "time": "14 hrs ago",
+                "category": "Europe",
+                "link": "https://www.bbc.com/news/videos/cr536em4mlzo"
+            },
+            {
+                "image": "assets/imgs/img8.webp",
+                "headline": "Sound of meteorite striking Earth caught on doorbell camera",
+                "description": "Experts from the University of Alberta believe this is the first time audio of a meteorite fall is recorded.",
+                "time": "13 hrs ago",
+                "category": "Europe",
+                "link": "https://www.bbc.com/news/videos/cly9vl9jjkvo"
+            },
+            {
+                "image": "assets/imgs/img9.webp",
+                "headline": "Gaza ceasefire and hostage deal announced",
+                "description": "A ceasefire deal between Israel and Hamas is announced by Qatar's prime minister.",
+                "time": "16 hrs ago",
+                "category": "Europe",
+                "link": "https://www.bbc.com/news/videos/cly9vl9jjkvo"
+            },
+            {
+                "image": "assets/imgs/img10.webp",
+                "headline": "Couple's fire-resistant LA home survives amid destruction",
+                "description": "A well-planned house that endured severe flames from the Palisades fire has put a spotlight on innovative protective features.",
+                "time": "15 hrs ago",
+                "category": "Europe",
+                "link": "https://www.bbc.com/news/videos/cly9vl9jjkvo"
+            },
+            {
+                "image": "assets/imgs/img11.webp",
+                "headline": "LA's super rich paying for private fire trucks to protect homes",
+                "description": "The BBC's Emma Vardy visits a community outside the evacuation zone where some residents are not taking any chances.",
+                "time": "8 hrs ago",
+                "category": "Europe",
+                "link": "https://www.bbc.com/news/videos/cly9vl9jjkvo"
+            },
+            {
+                "image": "assets/imgs/img12.webp",
+                "headline": "South Korea: President Yoon addresses nation before his arrest",
+                "description": "The impeached president said he will comply with questioning to prevent unsavoury bloodshed.",
+                "time": "8 hrs ago",
+                "category": "Europe",
+                "link": "https://www.bbc.com/news/videos/cly9vl9jjkvo"
+            },
+            {
+                "image": "assets/imgs/img6.webp",
+                "headline": "A mother tiger on a fierce hunt to feed her cubs",
+                "description": "While her three offspring take a leisurely bath, this Bengal tiger mother must find food for the entire family.",
+                "time": "8 hrs ago",
+                "category": "Europe",
+                "link": "https://www.bbc.com/news/videos/cly9vl9jjkvo"
+            }
+        ],
+        "innovation": {
+            "image": "assets/imgs/img13.webp",
+            "headline": "The German start-up attempting to cheat death",
+            "description": "Tomorrow.Bio, a cryonics start-up, is offering a chance at a second life for the cost of a sports car. Is cryogenics within reach, or still an empty promise?",
+            "button": "See more",
+            "link": "https://www.bbc.com/future/article/20250115-cryonics-the-start-up-that-wants-to-freeze-you-in-suspended-animation"
+        },
+        "health": {
+            "heading": "Health and wellness",
+            "image": "assets/imgs/img14.webp",
+            "headline": "Introducing Health Fix, our newsletter to boost your health and wellbeing",
+            "description": "Boost your health, from body to mind, with the latest expert thinking, every Wednesday to your inbox.",
+            "button": "See more",
+            "link": "https://www.bbc.com/future/article/20250114-boost-your-health-from-body-to-mind-with-our-health-fix-newsletter"
+        },
+        "world": [
+            {
+                "headline": "JD Vance: the 'never Trump guy' who's about to become vice-president",
+                "time": "2 hrs ago",
+                "category": "US & Canada",
+                "image": "",
+                "link": "https://www.bbc.com/news/articles/cly443wxl78o"
+            },
+            {
+                "headline": "Israel has changed since Donald Trump's last term – has he?",
+                "time": "3 hrs ago",
+                "category": "US & Canada",
+                "image": "",
+                "link": "https://www.bbc.com/news/articles/cn07dv4mrg2o"
+            },
+            {
+                "headline": "Donald Trump's and JD Vance's official portraits released",
+                "time": "4 hrs ago",
+                "category": "US & Canada",
+                "image": "",
+                "link": "https://www.bbc.com/news/articles/cdd994vl76qo"
+            },
+            {
+                "headline": "Strong winds weaken in LA, giving respite to weary firefighters",
+                "description": "The two largest fires are still burning after more than a week - but gusts that fanned the flames have eased.",
+                "time": "6 hrs ago",
+                "category": "US & Canada",
+                "image": "assets/imgs/img15.webp",
+                "link": "https://www.bbc.com/news/articles/cly443wxl78o"
+            },
+            {
+                "headline": "Israel has changed since Donald Trump's last term – has he?",
+                "time": "3 hrs ago",
+                "category": "BBC InDepth",
+                "image": "",
+                "link": "https://www.bbc.com/news/articles/cn07dv4mrg2o"
+            },
+            {
+                "headline": "Onboard aid convoy on its way to offer hope for Gaza",
+                "time": "5 hrs ago",
+                "category": "Middle East",
+                "image": "",
+                "link": "https://www.bbc.com/news/articles/cdd994vl76qo"
+            },
+            {
+                "headline": "Israel delays vote to approve Gaza ceasefire deal",
+                "time": "7 hrs ago",
+                "category": "Middle East",
+                "image": "",
+                "link": "https://www.bbc.com/news/articles/cn07dv4mrg2o"
+            },
+            {
+                "headline": "Strong winds weaken in LA, giving respite to weary firefighters",
+                "description": "The two largest fires are still burning after more than a week - but gusts that fanned the flames have eased.",
+                "time": "6 hrs ago",
+                "category": "US & Canada",
+                "image": "assets/imgs/img16webp",
+                "link": "https://www.bbc.com/news/articles/cly443wxl78o"
+            },
+            {
+                "headline": "No convictions for breaching sanctions on Russia",
+                "time": "3 hrs ago",
+                "category": "Europe",
+                "image": "",
+                "link": "https://www.bbc.com/news/articles/cdd994vl76qo"
+            },
+            {
+                "headline": "UK will 'never let up' on Ukraine support, says prime minister",
+                "time": "5 hrs ago",
+                "category": "Europe",
+                "image": "",
+                "link": "https://www.bbc.com/news/articles/cdd994vl76qo"
+            },
+            {
+                "headline": "Germany to shoot down drones near military sites",
+                "time": "7 hrs ago",
+                "category": "Europe",
+                "image": "",
+                "link": "https://www.bbc.com/news/articles/cdd994vl76qo"
+            },
+            {
+                "headline": "Ukraine launches largest attack of war so far, Kyiv claims",
+                "description": "Officials in several Russian regions, some hundreds of kilometres from the border, reported strikes overnight.",
+                "time": "6 hrs ago",
+                "category": "Europe",
+                "image": "assets/imgs/img17webp",
+                "link": "https://www.bbc.com/news/articles/cn07dv4mrg2o"
+            },
+            {
+                "headline": "A million-dollar challenge to crack the script of early Indians",
+                "time": "3 hrs ago",
+                "category": "Asia",
+                "image": "",
+                "link": "https://www.bbc.com/news/articles/cly443wxl78o"
+            },
+            {
+                "headline": "Nepal's leader says it has too many tigers. Does it?",
+                "time": "5 hrs ago",
+                "category": "Asia",
+                "image": "",
+                "link": "https://www.bbc.com/news/articles/cly443wxl78o"
+            },
+            {
+                "headline": "Australian influencer charged with poisoning her baby",
+                "time": "7 hrs ago",
+                "category": "Asia",
+                "image": "",
+                "link": "https://www.bbc.com/news/articles/cn07dv4mrg2o"
+            },
+            {
+                "headline": "UK must rejoin EU customs union, says Lib Dem Davey",
+                "description": "Sir Ed also called for Donald Trump to be offered a state visit to the UK, but only if he delivered support for Ukraine.",
+                "time": "6 hrs ago",
+                "category": "Asia",
+                "image": "assets/imgs/img18.webp",
+                "link": "https://www.bbc.com/news/articles/cly443wxl78o"
+            }
+        ]
+    },
+    "footer": {
+        "language": {
+            "heading": "The BBC is in multiple languages",
+            "subhead": "Read the BBC In your own language",
+            "languages": [
+                "Oduu Afaan Oromootiin",
+                "Amharic ዜና በአማርኛ",
+                "Arabic عربي<",
+                "Chinese 中文网",
+                "Azeri AZƏRBAYCAN",
+                "Oduu Afaan Oromootiin",
+                "Amharic ዜና በአማርኛ",
+                "Azeri AZƏRBAYCAN",
+                "Chinese 中文网",
+                "Arabic عربي<",
+                "Oduu Afaan Oromootiin",
+                "Arabic عربي<",
+                "Amharic ዜና በአማርኛ",
+                "Azeri AZƏRBAYCAN",
+                "Chinese 中文网",
+                "Oduu Afaan Oromootiin",
+                "Amharic ዜና በአማርኛ",
+                "Arabic عربي<",
+                "Azeri AZƏRBAYCAN",
+                "Chinese 中文网",
+                "Oduu Afaan Oromootiin",
+                "Arabic عربي<",
+                "Amharic ዜና በአማርኛ",
+                "Azeri AZƏRBAYCAN",
+                "Oduu Afaan Oromootiin",
+                "Amharic ዜና በአማርኛ",
+                "Arabic عربي<",
+                "Chinese 中文网",
+                "Azeri AZƏRBAYCAN",
+                "Chinese 中文网"
+            ]
+        },
+        "follow": {
+            "heading": "Follow BBC on:",
+            "svg": [
+                {
+                    "width": "14",
+                    "height": "14",
+                    "viewBox": "0 0 14 14",
+                    "xmlns": "http://www.w3.org/2000/svg",
+                    "category": "social",
+                    "icon": "x",
+                    "aria-hidden": "true",
+                    "path": {
+                        "d": "M8.3319 5.92804L13.5437 0H12.3087L7.78327 5.14724L4.16883 0H0L5.46574 7.78354L0 14H1.2351L6.01406 8.56434L9.83117 14H14L8.3316 5.92804H8.3319ZM6.64026 7.85211L6.08647 7.07705L1.68013 0.909776H3.57717L7.13314 5.88696L7.68693 6.66202L12.3093 13.1316H10.4122L6.64026 7.85241V7.85211Z"
+                    }
+                },
+                {
+                    "width": "9",
+                    "height": "16",
+                    "viewBox": "0 0 9 16",
+                    "xmlns": "http://www.w3.org/2000/svg",
+                    "category": "social",
+                    "icon": "facebook",
+                    "aria-hidden": "true",
+                    "path": {
+                        "d": "M6.80799 2.65602H8.31199V0.112024C7.58379 0.0363015 6.85211 -0.00108342 6.11999 2.38913e-05C3.94399 2.38913e-05 2.456 1.32802 2.456 3.76002V5.85601H0V8.70401H2.456V16H5.39999V8.70401H7.84799L8.21599 5.85601H5.39999V4.04002C5.39999 3.20002 5.62399 2.65602 6.80799 2.65602Z"
+                    }
+                },
+                {
+                    "width": "18",
+                    "height": "17",
+                    "viewBox": "0 0 18 17",
+                    "xmlns": "http://www.w3.org/2000/svg",
+                    "category": "social",
+                    "icon": "instagram",
+                    "aria-hidden": "true",
+                    "path": {
+                        "d": "M12.7227 0.189697H5.28726C4.13732 0.190927 3.03482 0.648288 2.22168 1.46143C1.40854 2.27456 0.951181 3.37706 0.949951 4.52701V11.9624C0.951181 13.1124 1.40854 14.2149 2.22168 15.028C3.03482 15.8411 4.13732 16.2985 5.28726 16.2997H12.7227C13.8726 16.2985 14.9751 15.8411 15.7882 15.028C16.6014 14.2149 17.0587 13.1124 17.06 11.9624V4.52701C17.0587 3.37706 16.6014 2.27456 15.7882 1.46143C14.9751 0.648288 13.8726 0.190927 12.7227 0.189697ZM9.00496 11.9624C8.26967 11.9624 7.55089 11.7444 6.93952 11.3359C6.32815 10.9274 5.85164 10.3467 5.57026 9.66741C5.28887 8.98809 5.21525 8.24058 5.3587 7.51942C5.50215 6.79826 5.85622 6.13583 6.37615 5.6159C6.89608 5.09597 7.55851 4.74189 8.27968 4.59845C9.00084 4.455 9.74834 4.52862 10.4277 4.81C11.107 5.09139 11.6876 5.56789 12.0961 6.17927C12.5046 6.79064 12.7227 7.50942 12.7227 8.24471C12.7216 9.23039 12.3296 10.1754 11.6326 10.8724C10.9357 11.5694 9.99064 11.9614 9.00496 11.9624ZM13.6521 4.52701C13.4683 4.52701 13.2886 4.4725 13.1357 4.37038C12.9829 4.26825 12.8638 4.12309 12.7934 3.95326C12.7231 3.78343 12.7047 3.59656 12.7405 3.41626C12.7764 3.23597 12.8649 3.07037 12.9949 2.94038C13.1249 2.8104 13.2905 2.72188 13.4708 2.68602C13.6511 2.65016 13.8379 2.66856 14.0078 2.73891C14.1776 2.80926 14.3227 2.92838 14.4249 3.08123C14.527 3.23407 14.5815 3.41376 14.5815 3.59759C14.5815 3.84409 14.4836 4.08049 14.3093 4.25479C14.135 4.42909 13.8986 4.52701 13.6521 4.52701Z"
+                    }
+                },
+                {
+                    "width": "16",
+                    "height": "19",
+                    "viewBox": "0 0 16 19",
+                    "xmlns": "http://www.w3.org/2000/svg",
+                    "category": "social",
+                    "icon": "tiktok",
+                    "aria-hidden": "true",
+                    "path": {
+                        "d": "M12.6992 2.92929C12.0014 2.13265 11.6168 1.10958 11.6171 0.0505371H8.46271V12.7089C8.43838 13.3939 8.14918 14.0427 7.65601 14.5187C7.16284 14.9948 6.50419 15.2609 5.81875 15.261C4.36917 15.261 3.16458 14.0768 3.16458 12.6068C3.16458 10.851 4.85917 9.53408 6.60479 10.0751V6.84929C3.08292 6.3797 0 9.11554 0 12.6068C0 16.0062 2.8175 18.4255 5.80854 18.4255C9.01396 18.4255 11.6171 15.8224 11.6171 12.6068V6.18575C12.8962 7.10434 14.4319 7.5972 16.0067 7.5945V4.44012C16.0067 4.44012 14.0875 4.532 12.6992 2.92929Z"
+                    }
+                },
+                {
+                    "width": 15,
+                    "height": 15,
+                    "viewBox": "0 0 15 15",
+                    "xmlns": "http://www.w3.org/2000/svg",
+                    "category": "social",
+                    "icon": "linkedin",
+                    "aria-hidden": true,
+                    "path": {
+                        "d": "M3.14795 1.57476C3.14775 1.99221 2.98172 2.39247 2.68639 2.6875C2.39107 2.98253 1.99063 3.14816 1.57319 3.14795C1.15575 3.14775 0.755481 2.98172 0.460451 2.68639C0.16542 2.39107 -0.000208525 1.99064 1.97032e-07 1.57319C0.000208919 1.15575 0.166238 0.755481 0.461564 0.460451C0.756889 0.16542 1.15732 -0.000208525 1.57476 1.97032e-07C1.99221 0.000208919 2.39247 0.166238 2.6875 0.461564C2.98253 0.756889 3.14816 1.15732 3.14795 1.57476ZM3.19517 4.31348H0.0472195V14.1666H3.19517V4.31348ZM8.16894 4.31348H5.03673V14.1666H8.13746V8.99607C8.13746 6.11569 11.8914 5.84811 11.8914 8.99607V14.1666H15V7.92576C15 3.07004 9.44386 3.25105 8.13746 5.63563L8.16894 4.31348Z"
+                    }
+                },
+                {
+                    "width": 19,
+                    "height": 15,
+                    "viewBox": "0 0 19 15",
+                    "xmlns": "http://www.w3.org/2000/svg",
+                    "category": "social",
+                    "icon": "youtube",
+                    "aria-hidden": true,
+                    "path": {
+                        "d": "M9.48685 0.29126C9.98138 0.293864 11.2186 0.305151 12.5337 0.35464L13.0004 0.37374C14.3238 0.431911 15.6463 0.532624 16.3029 0.703663C17.178 0.934609 17.8652 1.60661 18.0976 2.4592C18.468 3.81362 18.5144 6.45474 18.5199 7.09462L18.5208 7.22659V7.37766C18.5144 8.01753 18.468 10.6595 18.0976 12.0131C17.8624 12.8683 17.1743 13.5411 16.3029 13.7686C15.6463 13.9397 14.3238 14.0404 13.0004 14.0985L12.5337 14.1185C11.2186 14.1671 9.98138 14.1793 9.48685 14.181L9.26921 14.1819H9.03306C7.98658 14.1758 3.60989 14.1315 2.21705 13.7686C1.34283 13.5377 0.654744 12.8657 0.422296 12.0131C0.051861 10.6587 0.00555653 8.01753 0 7.37766V7.09462C0.00555653 6.45474 0.051861 3.81275 0.422296 2.4592C0.657523 1.60401 1.34561 0.931136 2.21798 0.704532C3.60989 0.340748 7.98751 0.296469 9.03399 0.29126H9.48685ZM7.40778 4.19824V10.2758L12.9643 7.23701L7.40778 4.19824Z"
+                    }
+                }
+            ],
+            "link":[
+                "news",
+                "breaking",
+                "sport",
+                "earth",
+                "travel",
+                "culture",
+                "select"
+            ]
+        },
+        "terms":[
+            "Terms of Use",
+            "About the BBC",
+            "Privacy Policy",
+            "Cookies",
+            "Accessibility Help",
+            "Contact the BBC",
+            "Advertise with us",
+            "Do not share or sell my info",
+            "Contact technical support"
+        ]
+    }
+}
