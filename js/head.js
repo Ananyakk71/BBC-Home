@@ -9,7 +9,7 @@ export function loadHeadContent(data) {
         span.textContent = item.text;
         wrapper.appendChild(buttonClick);
         buttonClick.appendChild(span)
-        buttonClick.addEventListener("click",()=>{
+        buttonClick.addEventListener("click", () => {
             window.open("https://account.bbc.com/auth/register/email?ab=o13&action=register&clientId=Account&context=international&isCasso=false&nonce=5EhE1Iyd-2hZUXq-BZxjGOLDFJxP3jcisGzw&ptrt=https%3A%2F%2Fwww.bbc.com%2Fnews&realm=%2F&redirectUri=https%3A%2F%2Fsession.bbc.com%2Fsession%2Fcallback%3Frealm%3D%2F&sequenceId=d870a50b-4fb1-4f87-99de-706f138577e7&service=IdRegisterService&userOrigin=BBCS_BBC")
         })
 
@@ -17,7 +17,7 @@ export function loadHeadContent(data) {
     const body = document.querySelector("body");
     const menuSearch = document.getElementById("menu");
     const header1 = document.querySelector(".header-1");
-    
+
     const menuBg = document.createElement("div");
     menuBg.className = "menu-bg";
     menuBg.style.display = "none";
@@ -32,7 +32,7 @@ export function loadHeadContent(data) {
         const open = document.querySelector(".open");
         const close = document.querySelector(".close");
         const lense = document.getElementById("lense");
-        if (open.style.display === "none"){
+        if (open.style.display === "none") {
             open.style.display = "inline";
             close.style.display = "none";
             lense.style.display = "inline";
@@ -55,56 +55,56 @@ export function loadHeadContent(data) {
             drawMenu.style.display = "none";
         }
 
-         const drawMenuInside = document.createElement("div");
-         drawMenuInside.className = "draw-menuInside";
-         const drawMenuSearch = document.createElement("div");
-         drawMenuSearch.className = "draw-menuSearch";
+        const drawMenuInside = document.createElement("div");
+        drawMenuInside.className = "draw-menuInside";
+        const drawMenuSearch = document.createElement("div");
+        drawMenuSearch.className = "draw-menuSearch";
 
-         drawMenu.appendChild(drawMenuInside);
-         drawMenuInside.appendChild(drawMenuSearch);
+        drawMenu.appendChild(drawMenuInside);
+        drawMenuInside.appendChild(drawMenuSearch);
 
-         const searchInputWrapper = document.createElement("div");
-         searchInputWrapper.className = "search-input-wrapper";
-         const input = document.createElement("input");
-         input.type = "text";
-         input.className = "input-text";
-         input.placeholder = "Search news, topics and more";
-         drawMenuSearch.appendChild(searchInputWrapper);
-         searchInputWrapper.appendChild(input);
+        const searchInputWrapper = document.createElement("div");
+        searchInputWrapper.className = "search-input-wrapper";
+        const input = document.createElement("input");
+        input.type = "text";
+        input.className = "input-text";
+        input.placeholder = "Search news, topics and more";
+        drawMenuSearch.appendChild(searchInputWrapper);
+        searchInputWrapper.appendChild(input);
 
-         const searchInputButton = document.createElement("button");
-         searchInputButton.className = "search-input-button btn";
-         searchInputButton.innerHTML = `
+        const searchInputButton = document.createElement("button");
+        searchInputButton.className = "search-input-button btn";
+        searchInputButton.innerHTML = `
                          <span class="button-icon-wrapper">
                              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="1em" height="1em" category="actions" icon="search" aria-hidden="true"><path d="m30.6 28.1-8.3-8.3c1.5-2 2.4-4.4 2.4-7.2C24.7 6 19.6 1 13 1S1.4 6.1 1.4 12.7 6.5 24.3 13 24.3c2.3 0 4.4-.6 6.2-1.8l8.5 8.5 2.9-2.9zM4 12.6c0-5.2 3.9-9.1 9-9.1s9 3.9 9 9.1c0 5.2-3.9 9.1-9 9.1s-9-3.9-9-9.1z"/></svg>
                          </span>
                          `;
-         searchInputWrapper.appendChild(searchInputButton);
+        searchInputWrapper.appendChild(searchInputButton);
 
-         const header3Inside = document.createElement("div");
-         header3Inside.className = "header-3-inside";
-         drawMenuSearch.appendChild(header3Inside);
+        const header3Inside = document.createElement("div");
+        header3Inside.className = "header-3-inside";
+        drawMenuSearch.appendChild(header3Inside);
 
-         const headButtonsInside = document.createElement("div");
-         headButtonsInside.className = "head-buttons btninside";
-         header3Inside.appendChild(headButtonsInside);
+        const headButtonsInside = document.createElement("div");
+        headButtonsInside.className = "head-buttons btninside";
+        header3Inside.appendChild(headButtonsInside);
 
-         button.forEach((item, index) => { 
+        button.forEach((item, index) => {
             const insideWrapper = document.createElement("div");
             insideWrapper.className = `${item.class}inside btnIn`;
             const a = document.createElement("a");
             a.textContent = item.text;
             headButtonsInside.appendChild(insideWrapper);
             insideWrapper.appendChild(a)
-            insideWrapper.addEventListener("click",()=>{
+            insideWrapper.addEventListener("click", () => {
                 window.open("https://account.bbc.com/auth/register/email?ab=o13&action=register&clientId=Account&context=international&isCasso=false&nonce=5EhE1Iyd-2hZUXq-BZxjGOLDFJxP3jcisGzw&ptrt=https%3A%2F%2Fwww.bbc.com%2Fnews&realm=%2F&redirectUri=https%3A%2F%2Fsession.bbc.com%2Fsession%2Fcallback%3Frealm%3D%2F&sequenceId=d870a50b-4fb1-4f87-99de-706f138577e7&service=IdRegisterService&userOrigin=BBCS_BBC")
             })
         })
 
-         const group = document.createElement("div");
-         drawMenuSearch.appendChild(group);
+        const group = document.createElement("div");
+        drawMenuSearch.appendChild(group);
 
-         group.innerHTML = `
+        group.innerHTML = `
                  <div class="nav-item">
                      <a class="inner-link">
                          <button class="home-button innerBtn" id="innerbutton">
@@ -230,7 +230,7 @@ export function loadHeadContent(data) {
                 
                  `
     });
-    
+
 };
 
 

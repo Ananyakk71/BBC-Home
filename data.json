@@ -344,7 +344,14 @@
                 "image": "assets/imgs/img18.webp",
                 "link": "https://www.bbc.com/news/articles/cly443wxl78o"
             }
-        ]
+        ],
+        "vedio": {
+            "image": "assets/imgs/img6.webp",
+            "link": "https://www.bbc.com/reel/video/p0kgb8bw/a-mother-tiger-on-a-fierce-hunt-to-feed-her-cubs",
+            "headline": "The German start-up attempting to cheat death",
+            "description": "Tomorrow.Bio, a cryonics start-up, is offering a chance at a second life for the cost of a sports car. Is cryogenics within reach, or still an empty promise?",
+            "button": "See more"
+        }
     },
     "footer": {
         "language": {
@@ -459,7 +466,7 @@
                     }
                 }
             ],
-            "link":[
+            "link": [
                 "news",
                 "breaking",
                 "sport",
@@ -469,7 +476,7 @@
                 "select"
             ]
         },
-        "terms":[
+        "terms": [
             "Terms of Use",
             "About the BBC",
             "Privacy Policy",

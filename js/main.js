@@ -1,11 +1,12 @@
 export function loadMainContent(data) {
     const firstgridLeft = document.querySelector(".first-grid-left");
     const firstGrid1 = data.mainSection.firstGrid1;
+
     firstGrid1.forEach((item) => {
         const card = document.createElement("div");
         card.className = "card";
-        card.addEventListener("click",()=>{ 
-            window.location.href = item.link;  
+        card.addEventListener("click", () => {
+            window.location.href = item.link;
         })
 
         const innerCard = document.createElement("a");
@@ -19,7 +20,7 @@ export function loadMainContent(data) {
         cardMediaWrapper.className = "card-media-wrapper";
 
         const img = document.createElement("img");
-        img.src = item.image ;
+        img.src = item.image;
         cardMediaWrapper.appendChild(img);
 
         const cardTextWrapper = document.createElement("div");
@@ -67,8 +68,8 @@ export function loadMainContent(data) {
 
     const mainArticle = document.createElement("div");
     mainArticle.className = "main-article";
-    mainArticle.addEventListener("click",()=>{ 
-        window.location.href = firstGrid2.link;  
+    mainArticle.addEventListener("click", () => {
+        window.location.href = firstGrid2.link;
     })
     const innerCard = document.createElement("a");
     innerCard.className = "inner-card";
@@ -78,24 +79,25 @@ export function loadMainContent(data) {
 
     const cardMediaWrapper = document.createElement("div");
     cardMediaWrapper.className = "card-media-wrapper";
-    
+
     const img = document.createElement("img");
     img.src = firstGrid2.image;
+
     firstgridright.appendChild(mainArticle);
-     mainArticle.appendChild(innerCard)
-     innerCard.appendChild(ministerNews);
-     ministerNews.appendChild(cardMediaWrapper);
-     cardMediaWrapper.appendChild(img);
-    
+    mainArticle.appendChild(innerCard)
+    innerCard.appendChild(ministerNews);
+    ministerNews.appendChild(cardMediaWrapper);
+    cardMediaWrapper.appendChild(img);
 
-     const cardTextWrapper = document.createElement("div");
-     cardTextWrapper.className = "card-text-wrapper";
 
-     ministerNews.appendChild(cardTextWrapper);
+    const cardTextWrapper = document.createElement("div");
+    cardTextWrapper.className = "card-text-wrapper";
 
-     const headline = document.createElement("h2");
-     headline.className = "card-headline main-head";
-     headline.textContent = firstGrid2.headline;
+    ministerNews.appendChild(cardTextWrapper);
+
+    const headline = document.createElement("h2");
+    headline.className = "card-headline main-head";
+    headline.textContent = firstGrid2.headline;
     cardTextWrapper.appendChild(headline);
 
     const description = document.createElement("p");
@@ -128,8 +130,8 @@ export function loadMainContent(data) {
         const card = document.createElement("div");
         card.className = "card";
         card.id = "manchester-card";
-        card.addEventListener("click",()=>{ 
-            window.location.href = item.link;  
+        card.addEventListener("click", () => {
+            window.location.href = item.link;
         })
 
         const innerCard = document.createElement("a");
@@ -173,7 +175,7 @@ export function loadMainContent(data) {
         manchesterArticle.appendChild(cardTextWrapper);
 
         secondGrid.appendChild(card);
-        
+
     });
 
     const firstHeading = document.querySelector("#indian-head");
@@ -197,8 +199,8 @@ export function loadMainContent(data) {
     indianaCard.forEach((item) => {
         const card = document.createElement("div");
         card.className = "card";
-        card.addEventListener("click",()=>{ 
-            window.location.href = item.link;  
+        card.addEventListener("click", () => {
+            window.location.href = item.link;
         })
         const innerCard = document.createElement("a");
         innerCard.className = "inner-card";
@@ -211,7 +213,7 @@ export function loadMainContent(data) {
         cardMediaWrapper.className = "card-media-wrapper";
 
         const img = document.createElement("img");
-        img.src = item.image ;
+        img.src = item.image;
         innerArticle.appendChild(cardMediaWrapper);
         cardMediaWrapper.appendChild(img);
 
@@ -248,8 +250,9 @@ export function loadMainContent(data) {
         indianaGrid.appendChild(card)
         card.appendChild(innerCard);
         innerCard.appendChild(innerArticle);
-        
+
     });
+
     const moreHead = document.querySelector("#more-head");
     const top2 = document.createElement("div");
     top2.className = "top";
@@ -257,27 +260,30 @@ export function loadMainContent(data) {
     line2.className = "line1";
     moreHead.appendChild(top2);
     top2.appendChild(line2);
+
     const title2 = document.createElement("div");
     title2.className = "section-title-wrapper";
     const innerCardMore = document.createElement("a");
     innerCardMore.className = "inner-card";
     moreHead.appendChild(title2);
     title2.appendChild(innerCardMore);
+
     innerCardMore.innerHTML = `
          <h2 class="section-title"> More news
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="1em" height="1em" category="arrows" icon="chevron-right" data-testid="section-title-chevron"><path d="M21.6 14.3 5.5 31h6.4l14.6-15L11.9 1H5.5l16.1 16.7v-3.4z"/></svg>
           </h2>
           `;
-    innerCardMore.addEventListener("click",()=>{
-        window.location.href = data.head.link[1];  
+    innerCardMore.addEventListener("click", () => {
+        window.location.href = data.head.link[1];
     })
+
     const grid5 = document.querySelector(".grid-5");
     const grid5Items = data.mainSection.news;
-    grid5Items.forEach((item)=>{
+    grid5Items.forEach((item) => {
         const card = document.createElement("div");
         card.className = "card";
-        card.addEventListener("click",()=>{ 
-            window.location.href = item.link;  
+        card.addEventListener("click", () => {
+            window.location.href = item.link;
         })
         const innerCard = document.createElement("a");
         innerCard.className = "inner-card";
@@ -293,9 +299,11 @@ export function loadMainContent(data) {
         headline.className = "card-headline";
         headline.textContent = item.headline;
         moreArticle.appendChild(headline);
+
         const cardTime = document.createElement("div");
         cardTime.className = "card-time";
         moreArticle.appendChild(cardTime);
+
         const timeSpan = document.createElement("span");
         timeSpan.textContent = item.time;
         cardTime.appendChild(timeSpan);
@@ -307,14 +315,14 @@ export function loadMainContent(data) {
 
         cardTime.appendChild(separator);
         cardTime.appendChild(categorySpan);
-        
+
     });
     const darkContainer = document.getElementById("dark-container");
     const top3 = document.createElement("div");
     top3.className = "top";
     const line3 = document.createElement("hr");
     line3.className = "line1 light";
-    
+
     darkContainer.appendChild(top3);
     top3.appendChild(line3);
 
@@ -324,17 +332,20 @@ export function loadMainContent(data) {
     innerCardDark.className = "inner-card";
     darkContainer.appendChild(title3);
     title3.appendChild(innerCardDark);
+
     innerCardDark.innerHTML = `
         <h2 class="section-title lightclr"> Must watch
              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="1em" height="1em" category="arrows" icon="chevron-right" data-testid="section-title-chevron"><path d="M21.6 14.3 5.5 31h6.4l14.6-15L11.9 1H5.5l16.1 16.7v-3.4z"></path></svg>
          </h2>
          `;
-         innerCardDark.addEventListener("click",()=>{
-            window.location.href = data.head.link[9]; 
-         })
+    innerCardDark.addEventListener("click", () => {
+        window.location.href = data.head.link[9];
+    })
+
     const arrowCard = document.createElement("div");
     arrowCard.className = "arrow-card"
     title3.appendChild(arrowCard);
+
     arrowCard.innerHTML = `
         <button class="left-arrow arrow-btn" disabled>
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="1em" height="1em" category="arrows" icon="chevron-left"><path d="M10.4 14.3 26.5 31h-6.4L5.5 16 20.1 1h6.4L10.4 17.7v-3.4z"/></svg>
@@ -343,15 +354,15 @@ export function loadMainContent(data) {
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="1em" height="1em" category="arrows" icon="chevron-right"><path d="M21.6 14.3 5.5 31h6.4l14.6-15L11.9 1H5.5l16.1 16.7v-3.4z"/></svg>
         </button>
         `;
-        
+
 
     const texasContainer = document.querySelector(".texas-container");
     const watchItems = data.mainSection.watch;
-    watchItems.forEach((item)=>{
+    watchItems.forEach((item) => {
         const texasCard = document.createElement("div");
         texasCard.className = "texas-card";
-        texasCard.addEventListener("click",()=>{ 
-            window.location.href = item.link;  
+        texasCard.addEventListener("click", () => {
+            window.location.href = item.link;
         })
         const innerCard = document.createElement("a");
         innerCard.className = "inner-card";
@@ -363,7 +374,7 @@ export function loadMainContent(data) {
         cardMediaWrapper.className = "card-media-wrapper";
 
         const img = document.createElement("img");
-        img.src = item.image ;
+        img.src = item.image;
         innerArticle.appendChild(cardMediaWrapper);
         cardMediaWrapper.appendChild(img);
 
@@ -375,12 +386,11 @@ export function loadMainContent(data) {
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="30" height="30" category="playback-avkx" icon="play" type="playback-avkx:play"><path d="M29 16 5.8 1v30L29 16z"/></svg>
                 </div>`;
 
-        
-
         texasContainer.appendChild(texasCard);
         texasCard.appendChild(innerCard);
         innerCard.appendChild(innerArticle);
         innerArticle.appendChild(cardMediaWrapper);
+
         const cardTextWrapper = document.createElement("div");
         cardTextWrapper.className = "card-text-wrapper bgcl";
         innerArticle.appendChild(cardTextWrapper);
@@ -396,38 +406,40 @@ export function loadMainContent(data) {
         cardTextWrapper.appendChild(description);
 
         const cardTime = document.createElement("div");
-        cardTime.className = "card-time";  
+        cardTime.className = "card-time";
         cardTextWrapper.appendChild(cardTime);
+
         const timeSpan = document.createElement("span");
         timeSpan.textContent = item.time;
-
         cardTime.appendChild(timeSpan);
+
         const separator = document.createElement("div");
         separator.className = "card-media-seperator";
 
         const categorySpan = document.createElement("span");
         categorySpan.textContent = item.category;
-        
+
     });
+
     const leftArrow = document.querySelector('.left-arrow');
-        const rightArrow = document.querySelector('.right-arrow');
-        rightArrow.addEventListener('click', () => {
-            texasContainer.scrollTo({
-                left: texasContainer.scrollWidth, 
-                behavior: 'smooth' 
-            });
-            rightArrow.disabled = true; 
-            leftArrow.disabled = false; 
+    const rightArrow = document.querySelector('.right-arrow');
+    rightArrow.addEventListener('click', () => {
+        texasContainer.scrollTo({
+            left: texasContainer.scrollWidth,
+            behavior: 'smooth'
         });
-    
-        leftArrow.addEventListener('click', () => {
-            texasContainer.scrollTo({
-                left: 0, 
-                behavior: 'smooth' 
-            });
-            leftArrow.disabled = true; 
-            rightArrow.disabled = false; 
+        rightArrow.disabled = true;
+        leftArrow.disabled = false;
+    });
+
+    leftArrow.addEventListener('click', () => {
+        texasContainer.scrollTo({
+            left: 0,
+            behavior: 'smooth'
         });
+        leftArrow.disabled = true;
+        rightArrow.disabled = false;
+    });
 
 
     const montanahead = document.getElementById("montana-head");
@@ -444,55 +456,58 @@ export function loadMainContent(data) {
     innerCardsee.className = "inner-card";
     montanahead.appendChild(title4);
     title4.appendChild(innerCardsee);
+
     innerCardsee.innerHTML = `
         <h2 class="section-title"> Innovation
                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="1em" height="1em" category="arrows" icon="chevron-right" data-testid="section-title-chevron"><path d="M21.6 14.3 5.5 31h6.4l14.6-15L11.9 1H5.5l16.1 16.7v-3.4z"></path></svg>
              </h2>`;
-    innerCardsee.addEventListener("click",()=>{
+    innerCardsee.addEventListener("click", () => {
         window.location.href = data.head.link[4];
     })
 
-     const montanaGrid = document.querySelector(".grid-2");
-     const innerCard2 = document.createElement("div");
-     innerCard2.className = "inner-card";
-     const montanaArticle = document.createElement("a");
-     montanaArticle.className = "montana-article";
-     montanaGrid.appendChild(innerCard2);
-     innerCard2.appendChild(montanaArticle);
-     const montanaImg = document.createElement("div");
-     montanaImg.className = "card-media-wrapper";
-     montanaImg.id = "montana-img";
-     const img2 = document.createElement("img"); 
-     img2.src = data.mainSection.innovation.image;
-     montanaArticle.appendChild(montanaImg);
-     montanaImg.appendChild(img2)
-     montanaArticle.addEventListener("click",()=>{
+    const montanaGrid = document.querySelector(".grid-2");
+    const innerCard2 = document.createElement("div");
+    innerCard2.className = "inner-card";
+    const montanaArticle = document.createElement("a");
+    montanaArticle.className = "montana-article";
+    montanaGrid.appendChild(innerCard2);
+    innerCard2.appendChild(montanaArticle);
+
+    const montanaImg = document.createElement("div");
+    montanaImg.className = "card-media-wrapper";
+    montanaImg.id = "montana-img";
+    const img2 = document.createElement("img");
+    img2.src = data.mainSection.innovation.image;
+    montanaArticle.appendChild(montanaImg);
+    montanaImg.appendChild(img2)
+
+    montanaArticle.addEventListener("click", () => {
         window.location.href = data.mainSection.innovation.link
-     })
-     const montanaText = document.createElement("div");
-     montanaText.className = "card-text-wrapper";
-     montanaText.id = "montana-text";
-     const cardHead = document.createElement("h2");
-     cardHead.className = "card-headline main-head";
-     cardHead.textContent = data.mainSection.innovation.headline;
-     montanaArticle.appendChild(montanaText);
-     montanaText.appendChild(cardHead);
+    })
+    const montanaText = document.createElement("div");
+    montanaText.className = "card-text-wrapper";
+    montanaText.id = "montana-text";
+    const cardHead = document.createElement("h2");
+    cardHead.className = "card-headline main-head";
+    cardHead.textContent = data.mainSection.innovation.headline;
+    montanaArticle.appendChild(montanaText);
+    montanaText.appendChild(cardHead);
 
-     const cardDescription = document.createElement("div");
-     cardDescription.className = "card-description";
-     cardDescription.id = "cardDescription";
-     cardDescription.textContent = data.mainSection.innovation.description;
-     montanaText.appendChild(cardDescription);
+    const cardDescription = document.createElement("div");
+    cardDescription.className = "card-description";
+    cardDescription.id = "cardDescription";
+    cardDescription.textContent = data.mainSection.innovation.description;
+    montanaText.appendChild(cardDescription);
 
-     const cardBtn = document.createElement("div");
-     cardBtn.className = "card-button";
-     const seeBtn = document.createElement("button");
-     seeBtn.className = "seemore btn";
-     const span = document.createElement("span");
-     span.textContent = data.mainSection.innovation.button;
-     montanaText.appendChild(cardBtn);
-     cardBtn.appendChild(seeBtn);
-     seeBtn.appendChild(span);
+    const cardBtn = document.createElement("div");
+    cardBtn.className = "card-button";
+    const seeBtn = document.createElement("button");
+    seeBtn.className = "seemore btn";
+    const span = document.createElement("span");
+    span.textContent = data.mainSection.innovation.button;
+    montanaText.appendChild(cardBtn);
+    cardBtn.appendChild(seeBtn);
+    seeBtn.appendChild(span);
 
     const healthhead = document.getElementById("health-head");
     const top5 = document.createElement("div");
@@ -501,6 +516,7 @@ export function loadMainContent(data) {
     line5.className = "line1";
     healthhead.appendChild(top5);
     top5.appendChild(line5);
+
     const title5 = document.createElement("div");
     title5.className = "section-title-wrapper";
     const head2 = document.createElement("h2");
@@ -508,7 +524,7 @@ export function loadMainContent(data) {
     head2.textContent = data.mainSection.health.heading;
     healthhead.appendChild(title5);
     title5.appendChild(head2);
-    head2.addEventListener("click",()=>{
+    head2.addEventListener("click", () => {
         window.location.href = data.mainSection.health.link;
     })
 
@@ -519,40 +535,114 @@ export function loadMainContent(data) {
     healthArticle.className = "health-article";
     healthGrid.appendChild(innerCard3);
     innerCard3.appendChild(healthArticle);
+
     const healthImg = document.createElement("div");
     healthImg.className = "card-media-wrapper ";
     healthImg.id = "health-img";
-    const img3 = document.createElement("img"); 
+    const img3 = document.createElement("img");
     img3.src = data.mainSection.health.image;
     healthArticle.appendChild(healthImg);
     healthImg.appendChild(img3)
-    healthArticle.addEventListener("click",()=>{
-       window.location.href = data.mainSection.health.link
+
+    healthArticle.addEventListener("click", () => {
+        window.location.href = data.mainSection.health.link
     })
 
     const healthText = document.createElement("div");
-     healthText.className = "card-text-wrapper";
-     healthText.id = "health-text";
-     const cardHead2 = document.createElement("h2");
-     cardHead2.className = "card-headline main-head";
-     cardHead2.textContent = data.mainSection.health.headline;
-     healthArticle.appendChild(healthText);
-     healthText.appendChild(cardHead2);
+    healthText.className = "card-text-wrapper";
+    healthText.id = "health-text";
+    const cardHead2 = document.createElement("h2");
+    cardHead2.className = "card-headline main-head";
+    cardHead2.textContent = data.mainSection.health.headline;
+    healthArticle.appendChild(healthText);
+    healthText.appendChild(cardHead2);
 
-     const cardDescription2 = document.createElement("div");
-     cardDescription2.className = "card-description";
-     cardDescription2.id = "cardDescription";
-     cardDescription2.textContent = data.mainSection.health.description;
-     healthText.appendChild(cardDescription2);
+    const cardDescription2 = document.createElement("div");
+    cardDescription2.className = "card-description";
+    cardDescription2.id = "cardDescription";
+    cardDescription2.textContent = data.mainSection.health.description;
+    healthText.appendChild(cardDescription2);
 
-     const cardBtn2 = document.createElement("div");
-     cardBtn2.className = "card-button";
-     const seeBtn2 = document.createElement("button");
-     seeBtn2.className = "seemore btn";
-     const span2 = document.createElement("span");
-     span2.textContent = data.mainSection.health.button;
-     healthText.appendChild(cardBtn2);
-     cardBtn2.appendChild(seeBtn2);
-     seeBtn2.appendChild(span2);
+    const cardBtn2 = document.createElement("div");
+    cardBtn2.className = "card-button";
+    const seeBtn2 = document.createElement("button");
+    seeBtn2.className = "seemore btn";
+    const span2 = document.createElement("span");
+    span2.textContent = data.mainSection.health.button;
+    healthText.appendChild(cardBtn2);
+    cardBtn2.appendChild(seeBtn2);
+    seeBtn2.appendChild(span2);
+
+    const darkContainer2 = document.getElementById("dark-container2");
+    const top6 = document.createElement("div");
+    top6.className = "top";
+    const line6 = document.createElement("hr");
+    line6.className = "line1 light";
+
+    darkContainer2.appendChild(top6);
+    top6.appendChild(line6);
+
+    const title6 = document.createElement("div");
+    title6.className = "section-title-wrapper";
+    const innerCardsee2 = document.createElement("a");
+    innerCardsee2.className = "inner-card";
+    darkContainer2.appendChild(title6);
+    title6.appendChild(innerCardsee2);
+
+    innerCardsee2.innerHTML = `
+        <h2 class="section-title lightclr"> Video
+                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="1em" height="1em" category="arrows" icon="chevron-right" data-testid="section-title-chevron"><path d="M21.6 14.3 5.5 31h6.4l14.6-15L11.9 1H5.5l16.1 16.7v-3.4z"></path></svg>
+             </h2>`;
+    innerCardsee2.addEventListener("click", () => {
+        window.location.href = data.head.link[9];
+    });
+
+    const texasGrid2 = document.querySelector("#texasGrid");
+    const innerCard4 = document.createElement("a");
+    innerCard4.className = "inner-card";
+    texasGrid2.appendChild(innerCard4);
+
+    const montanaArticle2 = document.createElement("div");
+    montanaArticle2.className = "montana-article";
+    innerCard4.appendChild(montanaArticle2);
+
+    const montanaImg2 = document.createElement("div");
+    montanaImg2.className = "card-media-wrapper";
+    montanaImg2.id = "montana-img";
+    montanaArticle2.appendChild(montanaImg2);
+
+    const img4 = document.createElement("img");
+    img4.src = data.mainSection.vedio.image;
+    montanaImg2.appendChild(img4)
+    montanaArticle2.addEventListener("click", () => {
+        window.location.href = data.mainSection.vedio.link;
+    })
+    const montanaText2 = document.createElement("div");
+    montanaText2.className = "card-text-wrapper dark";
+    montanaText2.id = "montana-text";
+    montanaArticle2.appendChild(montanaText2);
+
+    const cardHead3 = document.createElement("h2");
+    cardHead3.className = "card-headline main-head";
+    cardHead3.id = "white-head";
+    cardHead3.textContent = data.mainSection.vedio.headline;
+    montanaText2.appendChild(cardHead3);
+
+    const cardDescription3 = document.createElement("div");
+    cardDescription3.className = "card-description white";
+    cardDescription3.id = "white-head";
+    cardDescription3.textContent = data.mainSection.vedio.description;
+    montanaText2.appendChild(cardDescription3);
+
+    const cardBtn3 = document.createElement("div");
+    cardBtn3.className = "card-button";
+    const whitBtn = document.createElement("button");
+    whitBtn.className = "btn";
+    whitBtn.id = "white-btn";
+    const whiteHead = document.createElement("span");
+    whiteHead.textContent = data.mainSection.vedio.button;
+    montanaText2.appendChild(cardBtn3);
+    cardBtn3.appendChild(whitBtn);
+    whitBtn.appendChild(whiteHead);
 
 }
